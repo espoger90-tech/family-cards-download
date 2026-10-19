@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "minVersionCode": 63,
-  "revision": 2026101901,
+  "minVersionCode": 64,
+  "revision": 2026101902,
   "updatedAt": "2026-10-19",
   "topics": [
     {
@@ -80,8 +80,16 @@
           "text": "Lettura dei Raggi di Sole confermata. Usa l’account dell’app Sole365, non CosìComodo. Colleghi il saldo dell’account alla tessera selezionata: verifica che sia quella corretta. Dopo questo aggiornamento premi Aggiorna una volta per condividere anche un saldo Sole365 precedentemente solo locale."
         },
         {
+          "label": "Ricorda accesso",
+          "text": "Per Conad, Maury’s e Piccolo puoi scegliere Ricorda accesso su questo dispositivo durante il collegamento. Email o codice carta e password vengono cifrati soltanto sul telefono con Android Keystore. Quando premi Aggiorna, Family Cards usa la sessione esistente e, se è scaduta, tenta un nuovo login senza chiederti di riscrivere i dati. Puoi attivare l’opzione anche con Attiva accesso ricordato, senza cancellare i punti."
+        },
+        {
+          "label": "Verifiche aggiuntive",
+          "text": "La durata delle sessioni è decisa dall’insegna. L’accesso ricordato non elimina eventuali CAPTCHA, OTP, cambio password o revoche: se serve un tuo intervento, completa la verifica sul sito. Per Conad e Piccolo viene usato il normale modulo ufficiale, senza aggirare le protezioni. La tenuta dopo 24 ore del nuovo riaccesso va confermata sul telefono."
+        },
+        {
           "label": "Collega e Aggiorna",
-          "text": "Apri la tessera e scegli Collega quando richiesto. L’accesso resta salvato sul telefono finché la sessione è valida. Premi Aggiorna per una nuova lettura; il saldo precedente resta visibile se la rete o il servizio non risponde. Ricollega se la sessione scade."
+          "text": "Apri la tessera e scegli Collega quando richiesto. Premi Aggiorna per una nuova lettura; aprire la tessera mostra soltanto il saldo salvato o ricevuto dalla famiglia. Con Ricorda accesso attivo il login può essere rifatto alla scadenza. Se il servizio richiede verifiche aggiuntive o rifiuta i dati, completa nuovamente il collegamento."
         },
         {
           "label": "Stato del collegamento",
@@ -89,7 +97,7 @@
         },
         {
           "label": "Scollega account",
-          "text": "Scollega rimuove l’accesso, il saldo e i movimenti locali della tessera selezionata. Per una tessera condivisa rimuove anche il saldo visibile alla famiglia appena la modifica viene sincronizzata. Offline la rimozione condivisa resta in attesa. La conferma spiega l’effetto prima di procedere."
+          "text": "Scollega rimuove l’accesso, il saldo e i movimenti locali della tessera selezionata. Per una tessera condivisa rimuove anche il saldo visibile alla famiglia appena la modifica viene sincronizzata. Offline la rimozione condivisa resta in attesa. La conferma spiega l’effetto prima di procedere. Elimina anche le credenziali che hai scelto di ricordare su questo telefono."
         },
         {
           "label": "Cambia account",
@@ -150,7 +158,7 @@
         },
         {
           "label": "Password e sessioni",
-          "text": "Family Cards non salva le password delle insegne. I token di accesso vengono conservati soltanto sul telefono; quelli delle integrazioni native sono protetti da Android Keystore. Le sessioni dei siti restano nella WebView privata dell’app."
+          "text": "Le password non sono mai inserite nel codice o inviate a Firebase. Per Conad, Maury’s e Piccolo, soltanto se scegli Ricorda accesso, vengono conservate cifrate sul telefono con Android Keystore per rinnovare il login. Le credenziali ricordate non vengono incluse nei backup e si eliminano con Scollega o logout. Le altre integrazioni conservano i token, senza password. I cookie dei siti restano nella WebView privata."
         },
         {
           "label": "Dati familiari",
