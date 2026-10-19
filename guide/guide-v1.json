@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "minVersionCode": 64,
-  "revision": 2026101902,
+  "revision": 2026101903,
   "updatedAt": "2026-10-19",
   "topics": [
     {
@@ -12,6 +12,14 @@
         {
           "label": "Aggiungi",
           "text": "In Carte premi Aggiungi, seleziona il negozio e scansiona il codice oppure inserisci il numero. Puoi anche leggere una foto dalla galleria."
+        },
+        {
+          "label": "Legenda delle icone sulle tessere",
+          "text": "👥  Condivisa con la famiglia: la tessera è visibile ai membri della tua famiglia. 👤  Personale: la tessera è visibile soltanto a te. Trovi il simbolo accanto al nome della tessera sia in Home sia in Carte; toccalo per leggere il significato."
+        },
+        {
+          "label": "Tessere preferite nella Home",
+          "text": "La Home mostra fino a quattro tessere contrassegnate come preferite. Se non ne hai, compare un invito ad aggiungerne una. Per consultare tutte le tessere premi Vedi tutte; in Carte puoi usare il filtro Preferite."
         },
         {
           "label": "Alla cassa",
@@ -42,15 +50,11 @@
         },
         {
           "label": "Punti condivisi",
-          "text": "Conad, Decò Multicedi, Maury’s, Lidl e Sole365 condividono saldo e data dell’ultima lettura. Chi ha collegato l’account aggiorna i punti; gli altri vedono il risultato anche sulle card chiuse, senza fare login."
+          "text": "Conad, Decò Multicedi, Piccolo, Maury’s, Lidl e Sole365 condividono saldo e data dell’ultima lettura. Chi ha collegato l’account aggiorna i punti; gli altri vedono il risultato anche sulle card chiuse, senza fare login."
         },
         {
           "label": "Chi può aggiornare",
           "text": "Per recuperare nuovi punti devi collegare l’account dell’insegna sul tuo telefono. Puoi lasciare che lo faccia soltanto un membro della famiglia. Password, sessioni e movimenti non vengono condivisi."
-        },
-        {
-          "label": "Piccolo",
-          "text": "La lettura Piccolook resta da confermare nell’app. Il suo eventuale saldo rimane locale e non viene condiviso con la famiglia."
         }
       ]
     },
@@ -81,7 +85,7 @@
         },
         {
           "label": "Ricorda accesso",
-          "text": "Per Conad, Maury’s e Piccolo puoi scegliere Ricorda accesso su questo dispositivo durante il collegamento. Email o codice carta e password vengono cifrati soltanto sul telefono con Android Keystore. Quando premi Aggiorna, Family Cards usa la sessione esistente e, se è scaduta, tenta un nuovo login senza chiederti di riscrivere i dati. Puoi attivare l’opzione anche con Attiva accesso ricordato, senza cancellare i punti."
+          "text": "Per Conad, Maury’s, Piccolo e Sole365 puoi scegliere Ricorda accesso sul dispositivo. Le credenziali vengono cifrate soltanto sul telefono tramite Android Keystore; quando la sessione scade Family Cards può tentare di rinnovarla. Lidl utilizza il rinnovo dei token. Decò conserva la sessione del sito: il riaccesso automatico dopo la scadenza non è ancora disponibile."
         },
         {
           "label": "Verifiche aggiuntive",
@@ -158,7 +162,7 @@
         },
         {
           "label": "Password e sessioni",
-          "text": "Le password non sono mai inserite nel codice o inviate a Firebase. Per Conad, Maury’s e Piccolo, soltanto se scegli Ricorda accesso, vengono conservate cifrate sul telefono con Android Keystore per rinnovare il login. Le credenziali ricordate non vengono incluse nei backup e si eliminano con Scollega o logout. Le altre integrazioni conservano i token, senza password. I cookie dei siti restano nella WebView privata."
+          "text": "Le password non vengono inviate a Firebase. Con Ricorda accesso, Conad, Maury’s, Piccolo e Sole365 possono conservare le credenziali cifrate sul dispositivo tramite Android Keystore. Lidl usa token di sessione, mentre Decò conserva i cookie nella WebView privata. Le credenziali ricordate non sono incluse nei backup e vengono eliminate con Scollega o logout."
         },
         {
           "label": "Dati familiari",
