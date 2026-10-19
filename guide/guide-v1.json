@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "minVersionCode": 63,
+  "revision": 2026101901,
+  "updatedAt": "2026-10-19",
+  "topics": [
+    {
+      "id": "tessere",
+      "title": "Tessere",
+      "subtitle": "Aggiungere, usare e modificare",
+      "items": [
+        {
+          "label": "Aggiungi",
+          "text": "In Carte premi Aggiungi, seleziona il negozio e scansiona il codice oppure inserisci il numero. Puoi anche leggere una foto dalla galleria."
+        },
+        {
+          "label": "Alla cassa",
+          "text": "Apri la tessera e mostra il codice. Schermo intero lo ingrandisce. Numero, formato e zeri iniziali devono corrispondere alla tessera originale."
+        },
+        {
+          "label": "Modifica",
+          "text": "Nel dettaglio puoi modificare, duplicare o eliminare una tessera. Il codice a barre e i punti sono dati separati."
+        },
+        {
+          "label": "Punti sulla card chiusa",
+          "text": "Home e Carte mostrano l’ultimo saldo disponibile, anche quello ricevuto dalla famiglia. Aprire una tessera non interroga l’insegna: per nuovi punti usa Aggiorna."
+        }
+      ]
+    },
+    {
+      "id": "famiglia",
+      "title": "Famiglia",
+      "subtitle": "Condividere tessere e saldi",
+      "items": [
+        {
+          "label": "Crea o raggiungi",
+          "text": "In Impostazioni crea una famiglia e passa il codice agli altri membri, oppure inserisci il codice ricevuto."
+        },
+        {
+          "label": "Scegli le tessere",
+          "text": "Attiva Condividi con famiglia sulle tessere che vuoi rendere visibili agli altri. Le tessere personali restano nel tuo account."
+        },
+        {
+          "label": "Punti condivisi",
+          "text": "Conad, Decò Multicedi, Maury’s, Lidl e Sole365 condividono saldo e data dell’ultima lettura. Chi ha collegato l’account aggiorna i punti; gli altri vedono il risultato anche sulle card chiuse, senza fare login."
+        },
+        {
+          "label": "Chi può aggiornare",
+          "text": "Per recuperare nuovi punti devi collegare l’account dell’insegna sul tuo telefono. Puoi lasciare che lo faccia soltanto un membro della famiglia. Password, sessioni e movimenti non vengono condivisi."
+        },
+        {
+          "label": "Piccolo",
+          "text": "La lettura Piccolook resta da confermare nell’app. Il suo eventuale saldo rimane locale e non viene condiviso con la famiglia."
+        }
+      ]
+    },
+    {
+      "id": "punti",
+      "title": "Punti e collegamenti",
+      "subtitle": "Accesso, aggiornamento e scollegamento",
+      "items": [
+        {
+          "label": "Conad",
+          "text": "Lettura del saldo confermata. Accedi a My Conad dalla schermata aperta da Family Cards. Sono disponibili anche gli ultimi movimenti salvati sul telefono."
+        },
+        {
+          "label": "Decò Multicedi",
+          "text": "Lettura del saldo confermata per Carta Essere Decò del circuito Multicedi. Non è il circuito Gruppo Arena. L’integrazione mostra il saldo, senza movimenti."
+        },
+        {
+          "label": "Maury’s",
+          "text": "Accesso e recupero del saldo confermati dall’utente. Usa email e password Maury’s Fidelity; il numero della tessera viene confrontato con quello dell’account. Quando il servizio li rende disponibili, vengono salvati anche gli ultimi scontrini e relativi punti."
+        },
+        {
+          "label": "Lidl",
+          "text": "Accesso e recupero del saldo confermati dall’utente. L’accesso ufficiale si apre nel browser del telefono e torna a Family Cards. Usa il tuo metodo di accesso Lidl, anche telefono e password, ed esegui eventuali verifiche richieste. Viene mostrato il saldo Lidl Points, senza movimenti."
+        },
+        {
+          "label": "Sole365",
+          "text": "Lettura dei Raggi di Sole confermata. Usa l’account dell’app Sole365, non CosìComodo. Colleghi il saldo dell’account alla tessera selezionata: verifica che sia quella corretta. Dopo questo aggiornamento premi Aggiorna una volta per condividere anche un saldo Sole365 precedentemente solo locale."
+        },
+        {
+          "label": "Collega e Aggiorna",
+          "text": "Apri la tessera e scegli Collega quando richiesto. L’accesso resta salvato sul telefono finché la sessione è valida. Premi Aggiorna per una nuova lettura; il saldo precedente resta visibile se la rete o il servizio non risponde. Ricollega se la sessione scade."
+        },
+        {
+          "label": "Stato del collegamento",
+          "text": "Il dettaglio distingue un collegamento salvato sul telefono da un saldo ricevuto dalla famiglia. La data indica quando i punti sono stati letti, non quando hai aperto la schermata. La validità della sessione viene controllata soltanto quando aggiorni."
+        },
+        {
+          "label": "Scollega account",
+          "text": "Scollega rimuove l’accesso, il saldo e i movimenti locali della tessera selezionata. Per una tessera condivisa rimuove anche il saldo visibile alla famiglia appena la modifica viene sincronizzata. Offline la rimozione condivisa resta in attesa. La conferma spiega l’effetto prima di procedere."
+        },
+        {
+          "label": "Cambia account",
+          "text": "Dopo Scollega puoi premere Collega per accedere nuovamente. Per Conad, Decò e Piccolo lo scollegamento chiude la sessione del sito anche per altre tessere della stessa insegna sul telefono. Per Lidl il prossimo collegamento richiede una nuova autenticazione nel browser. L’account presso l’insegna non viene eliminato."
+        }
+      ]
+    },
+    {
+      "id": "spesa",
+      "title": "Lista della spesa",
+      "subtitle": "Liste e acquisti condivisi",
+      "items": [
+        {
+          "label": "Prima di iniziare",
+          "text": "Entra in una famiglia per usare le liste condivise."
+        },
+        {
+          "label": "Crea e aggiungi",
+          "text": "In Spesa scegli una lista oppure premi Nuova. Aggiungi prodotti ed eventuali note."
+        },
+        {
+          "label": "Durante la spesa",
+          "text": "Spunta i prodotti acquistati. Elimina acquistati rimuove soltanto quelli spuntati."
+        },
+        {
+          "label": "Avvisi",
+          "text": "Attiva Avvisi per nuovi prodotti e autorizza le notifiche Android. La ricezione dipende anche dalle impostazioni e dalla connessione del telefono."
+        }
+      ]
+    },
+    {
+      "id": "aspetto",
+      "title": "Aspetto e ordine",
+      "subtitle": "Personalizzare la consultazione",
+      "items": [
+        {
+          "label": "Tema",
+          "text": "Nelle Impostazioni scegli l’aspetto chiaro, scuro o quello del sistema."
+        },
+        {
+          "label": "Ricerca e filtri",
+          "text": "In Carte cerca per nome e usa Tutte, Personali, Condivise o Preferite per trovare ciò che ti serve."
+        },
+        {
+          "label": "Ordine manuale",
+          "text": "Seleziona Manuale nell’ordinamento, poi tieni premuta una tessera e trascinala nella posizione desiderata."
+        }
+      ]
+    },
+    {
+      "id": "offline",
+      "title": "Offline e privacy",
+      "subtitle": "Dati disponibili e accessi personali",
+      "items": [
+        {
+          "label": "Senza Internet",
+          "text": "Puoi consultare le tessere, la guida e i saldi già disponibili sul dispositivo. Nuove letture dei punti e ricezione di nuove modifiche familiari richiedono Internet."
+        },
+        {
+          "label": "Password e sessioni",
+          "text": "Family Cards non salva le password delle insegne. I token di accesso vengono conservati soltanto sul telefono; quelli delle integrazioni native sono protetti da Android Keystore. Le sessioni dei siti restano nella WebView privata dell’app."
+        },
+        {
+          "label": "Dati familiari",
+          "text": "Firebase riceve solo i dati della tessera condivisa, saldo, campagna e data di lettura. Le credenziali, i token e i movimenti non vengono trasferiti alla famiglia."
+        },
+        {
+          "label": "Logout",
+          "text": "Uscire da Family Cards rimuove i collegamenti e i dati locali dei punti. Il logout non elimina i saldi già condivisi con la famiglia. Per rimuovere anche un saldo condiviso usa Scollega sulla tessera prima di uscire. Il browser esterno gestisce separatamente la propria sessione."
+        }
+      ]
+    },
+    {
+      "id": "problemi",
+      "title": "Aggiornamenti e problemi",
+      "subtitle": "Guida, app e segnalazioni",
+      "items": [
+        {
+          "label": "Aggiorna l’app",
+          "text": "In Impostazioni premi Controlla aggiornamenti e segui download e installazione. Android può chiedere di consentire l’installazione da questa fonte."
+        },
+        {
+          "label": "Aggiorna la guida",
+          "text": "I testi sono pubblicati separatamente dall’APK. Aprendo questa schermata viene controllata una nuova guida al massimo ogni sei ore; Aggiorna guida forza il controllo. La data in alto identifica la copia visualizzata. Se la rete manca o il contenuto è incompatibile, resta disponibile la copia salvata o quella inclusa nell’app."
+        },
+        {
+          "label": "Codice non leggibile",
+          "text": "Confronta numero e formato con la tessera originale e prova Schermo intero."
+        },
+        {
+          "label": "Punti non aggiornati",
+          "text": "Controlla la data dell’ultima lettura, la connessione e il messaggio dopo Aggiorna. Se leggi il saldo della famiglia, chiedi al membro con l’account collegato di aggiornarlo."
+        },
+        {
+          "label": "Segnala un problema",
+          "text": "Indica insegna, versione Family Cards, operazione eseguita e testo dell’errore. Non inviare password, codici di verifica o token. Un login riuscito non dimostra da solo che sia stato letto il saldo."
+        }
+      ]
+    }
+  ]
+}
